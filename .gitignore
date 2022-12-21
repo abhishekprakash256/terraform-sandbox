@@ -8,3 +8,9 @@
 # Crash log files
 crash.log
 crash.*.log
+
+#hcl files
+*.hcl
+
+#backup files
+*.backup  
