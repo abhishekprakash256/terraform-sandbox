@@ -33,9 +33,9 @@ The terraform is a language used to build the infrastructue for the provisioning
     installer = {
       source = "shihanng/installer"
       version = "0.3.0"
-    }
-  }
-}
+        }
+        }
+        }
   ```
 
 ### The terraform commands
@@ -48,4 +48,5 @@ terrraform apply
 terraform apply -auto-approve  #to auto run
 terraform show
 terraform destroy   #to revert
+
 ```
