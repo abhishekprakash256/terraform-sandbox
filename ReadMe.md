@@ -3,12 +3,15 @@
 The terraform is a language used to build the infrastructue for the provisioning process, it has multi cloud support and be used in many cloud based applications. 
 
 
-### Run the resources
+### Notes
 - some of the resources require the use of the provider in the terraform in the config file
 - sudo handling is tough need to use the user with no passcode
 - the terraform destroy can revert the apt packages as well
-
+- terraform resource update can be done by the changes in the confi resource block and running again
+- different configuration files can be created in the same dir
+-  
   
+
   ```
   terraform {
   required_providers {
@@ -21,6 +24,8 @@ The terraform is a language used to build the infrastructue for the provisioning
   ```
 
 ### The terraform commands
+
+
 ```
 terraform init
 terraform plan

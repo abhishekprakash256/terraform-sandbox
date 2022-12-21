@@ -1,6 +1,6 @@
 resource "local_file" "test" {
-    filename = "/home/abhi/Programming/Terraform/test.txt"
-    content = "This is test"    
+    filename = var.filename
+    content = var.content   
 }
 
 terraform {
@@ -12,6 +12,6 @@ terraform {
   }
 }
 resource "installer_apt" "neofetch" {
-    name = "neofetch"
+    name = var.name
   
 }
