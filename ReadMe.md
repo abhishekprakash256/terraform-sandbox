@@ -24,7 +24,7 @@ The terraform is a language used to build the infrastructue for the provisioning
   export TF_VAR_FILENAME="/test/test.txt"
   terraform apply
   ```
-
+- We can use the tfvars file for storing the varibale as well, the extension should be .tfvars
   
 
   ```
