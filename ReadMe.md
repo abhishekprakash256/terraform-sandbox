@@ -19,6 +19,14 @@ The terraform is a language used to build the infrastructue for the provisioning
   - set can not have duplicates values
   - tuples can have the different varibale types
 - We can use the command line to pass the varibale in the enviroment
+- The vars file will be automatically picked up if the name is terraform.tfvars and terraform.tfvars.json
+- The vars will also load if the file will have the ending name as the *.auto.tfvars and *.auto.tfvars.json
+- If any other file name then pass it like this, terraform apply -var-file varibale.tfvars 
+- Output block can be used to make the output block in the file
+- State file is the resource manager for the file 
+- The state file has all the informations for the resources created
+- State file should be secured for the file
+- State fille should be not commited to the git repo
   
   ```
   export TF_VAR_FILENAME="/test/test.txt"
@@ -48,5 +56,6 @@ terrraform apply
 terraform apply -auto-approve  #to auto run
 terraform show
 terraform destroy   #to revert
+terraform output     #print the output of the file
 
 ```
