@@ -35,6 +35,8 @@ The terraform is a language used to build the infrastructue for the provisioning
 - We can use the tfvars file for storing the varibale as well, the extension should be .tfvars
 - The life cycles rules
   - add the block create before destory rule 
+- Meta arguments are used to change the behaviour of the resource
+  - for_each = toset(var.filename)
 
 ```
 lifecycle {
