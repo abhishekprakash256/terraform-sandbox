@@ -33,6 +33,15 @@ The terraform is a language used to build the infrastructue for the provisioning
   terraform apply
   ```
 - We can use the tfvars file for storing the varibale as well, the extension should be .tfvars
+- The life cycles rules
+  - add the block create before destory rule 
+
+```
+lifecycle {
+    create_before_destroy = true
+}
+
+```
   
 
   ```
@@ -54,8 +63,12 @@ terraform init
 terraform plan
 terrraform apply
 terraform apply -auto-approve  #to auto run
-terraform show
+terraform show    #to show the resource command 
 terraform destroy   #to revert
 terraform output     #print the output of the file
+terraform validate  #to check the file syntax
+terraform fmt  #to change the format of the code make more readable
+terraform providers   #to show the providers info
+terraform graph    #to show the graph output of the plan
 
 ```

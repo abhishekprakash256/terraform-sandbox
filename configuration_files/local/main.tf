@@ -1,6 +1,9 @@
 resource "local_file" "test" {
     filename = var.filename
-    content = var.content   
+    content = var.content  
+    lifecycle {
+        create_before_destroy = true
+    } 
 }
 
 terraform {
