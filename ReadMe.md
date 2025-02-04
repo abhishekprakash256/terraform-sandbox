@@ -1,6 +1,4 @@
-Here’s an enhanced version of your README for the Terraform practice repository. I’ve structured it to improve readability and provide more detailed explanations of Terraform concepts and commands:
 
----
 
 # Terraform Practice Repository
 
@@ -226,6 +224,3 @@ Feel free to fork this repository and create pull requests with improvements, ad
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
-
-This enhanced version of the README organizes your notes into a clearer, more structured format, with explanations for each section and Terraform concept. It also includes proper formatting for Terraform code examples. Let me know if you need further enhancements or adjustments!
